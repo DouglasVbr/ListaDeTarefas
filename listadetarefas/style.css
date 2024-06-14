@@ -7,12 +7,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #eeeeee;
+    background:#d9cec1;
 }
 
 h1 {
     text-align: center;
     font-size: 3rem;
+    color: #213349;
+    
 }
 
 header {
@@ -28,13 +30,14 @@ input {
     font-size: 2rem;
     width: 80%;
     padding-left: 10%;
+    color: #cac2a3;
 }
 
 button.add {
     width: 20%;
     cursor: pointer;
-    background: green;
-    color: white;
+    background: #c7b7cb;
+    color: #726688;
     font-weight: bold;
     border: none;
     height: 120px;
@@ -89,7 +92,7 @@ main {
 }
 
 .delete {
-    background: red;
+    background: #213349;
     color: white;
     border: none;
     padding: 10px;
@@ -98,5 +101,6 @@ main {
 }
 
 .mdi-check-circle {
-    color: green;
+    color: #c7b7cb;
 }
+
